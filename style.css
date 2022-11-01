@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/79fe83d4-7ef6-4181-9439-46db72599559/f0c190ec-fb9d-4442-89f0-08c267b5aee0/BR-pt-20221017-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+.logo-img{
+    margin-left: 3%;
+    margin-top: 1%;
+    height: 60px;
+    width: 187px;
+}
+
+fieldset{
+   
+    padding: 39px 48px 10px 76px;
+    width: 350px;
+    height: 650px;
+    margin-left: 33%;
+    background: rgba( 0, 0, 0, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: none;
+    margin-top: 10px;
+}
+
+
+h1{
+    margin: 30px 0;
+    color: white;
+    
+}
+.nome-div input{
+    
+    display: block;
+    padding-left: 17px;
+    width: 22em;
+    margin: 15px 0;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+  
+}
+
+.nome-div input:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.nome-div input::placeholder{
+    color: rgb(160, 160, 160);
+    text-align:justify;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.div-check{
+    display: flex;
+    margin: -10px 0px 0px 0px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.div-check label{
+    margin: 0px 57px 0px 5px;
+}
+
+.div-check a{
+    text-decoration: none;
+    color: #737373;
+    
+}
+
+.div-check a:hover{
+    text-decoration:underline;
+    
+}
+
+button{
+    background-color: #e50914;
+    color: white;
+    width: 18em;
+    height: 47px;
+    margin: 26px 0;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+    
+}
+
+.p-main{
+    margin-top: 110px;
+}
+
+.p-1{
+    margin-bottom: 15px;
+    color: #737373;
+}
+
+.p-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.p-1 a:hover{
+    text-decoration:underline;
+}
+
+.p-2{
+    color: #737373;
+    font-size: 14px;
+}
+
+.p-2 a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.formulario{
+   
+    display: inline;
+}
+
+
+input{
+    display: inherit;
+   
+}
+
+footer{
+    background: rgba( 0, 0, 0, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 100px;
+    border: none;
+    width:100%;
+    height:250px;
+    color:  #737373;
+   
+    
+}
+
+nav{
+    margin: 0 auto;
+    
+    width: 70%;
+    height: 250px;
+    
+}
+
+.central{
+    padding-left: 15px;
+}
+nav li{
+    padding-right: 110px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.p-footer{
+    padding: 36px 0;
+}
+
+.botao{
+    background-color: black;
+    
+    color: #737373;
+    width: 11em;
+    height: 3.5em;
+    margin-top: 20px;
+}
+
+.pt{
+    padding-left: 20px;
+}
+
+footer a{
+    color: #737373;
+}
+
+footer li:hover{
+    text-decoration:underline;
+}
+
+button:hover{
+    background-color: #ca0711;
+}
